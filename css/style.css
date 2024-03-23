@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .cont {
+
+  margin: 0 5rem;
+} */
+
+p {
+  margin: 0.75rem 0;
+}
+
+
+
+/* Navbar */
+#navbar {
+
+  background-color: #404E6c;
+  /* margin: 0 5rem; */
+}
+
+#navbar .navbar-content {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar img {
+  border-radius: 50%;
+}
+
+#navbar ul {
+  display: flex;
+
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding: 10px 16px;
+  font-style: italic;
+  color: #fff;
+
+}
+
+#navbar ul li a:hover {
+  background-color: gray;
+}
+
+#navbar ul li a:hover {
+  background-color: #93cb52;
+  border-radius: 8px;
+}
+
+/* Showcase */
+#showcase {
+  background: #333 url('../img/hero.png') no-repeat center center/cover;
+  height: 80vh;
+
+}
+
+#navbar-showcase {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar-showcase .logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#navbar-showcase .logo .mount {
+  color: #404E6c;
+}
+
+#navbar-showcase ul {
+  display: flex;
+
+  list-style: none;
+}
+
+#navbar-showcase ul li a {
+  padding: 10px 16px;
+  font-style: italic;
+  color: #333;
+
+}
+
+#navbar-showcase ul li a:hover {
+  background-color: gray;
+}
+
+#navbar-showcase ul li a:hover {
+  background-color: #93cb52;
+  border-radius: 8px;
+}
+
+#section {
+  background: #333 url('../img/main-section.jpg') no-repeat center center/cover;
+  height: 80vh;
+
+}
+
+#section .section-content {
+
+  padding: 6rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: 1rem;
+  margin-bottom: 11rem;
+}
+
+#section .section-content .first-heading {
+  display: flex;
+  align-items: center;
+}
+
+#section .section-content .first-heading .letter-heading {
+  margin-top: 40px;
+}
+
+#section .section-content .first-heading .letter-heading .heading-title {
+  color: #4C4E6C;
+}
+
+#section .section-content .first-heading .heading-fullstop {
+  background-color: #6B7C99;
+  width: 10px;
+  height: 10px;
+}
+
+#section .section-content .l-heading {
+  font-size: 7rem;
+  color: #6B7C99;
+}
+
+.sect-footer {
+  background-color: rgb(55, 68, 92, 0.9);
+
+}
+
+#section .sect-footer .sect-pictures {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+#section .sect-footer .sect-pictures img {
+  height: 100px;
+  width: 100px;
+}
+
+#section .sect-footer-content {
+
+  background-color: #fff;
+
+}
+
+#section .sect-footer-content .sect-footer-page {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#section .sect-footer-page .second-heading {
+  display: flex;
+  align-items: center;
+  top: 1rem;
+  padding: 24px;
+
+}
+
+#section .sect-footer-page .second-heading .l-heading {
+  font-size: 7rem;
+  color: #6B7C99;
+}
+
+#section .sect-footer-page .second-heading .letter-heading {
+  margin-top: 40px;
+}
+
+.sect-footer#sectorsecond-heading .heading-title {
+  color: #404E6c;
+}
+
+#section .sect-footer-page .second-heading .heading-fullstop {
+  background-color: #6B7C99;
+  width: 10px;
+  height: 10px;
+}
+
+#section .sect-link-div {
+  background: #404E6c;
+}
+
+#section .sect-link {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#section .sect-link ul {
+  list-style: none;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  padding: 5px;
+  gap: 3px;
+
+}
+
+
+.sect-link-div .sect-link ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+#section .sect-link ul li a:hover {
+  color: #404E6c;
+  background-color: #fff;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+#foot {
+  background: #333 url('../img/mainsection.jpg') no-repeat center center/cover;
+  height: 80vh;
+}
+
+#foot .footer-card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 6px;
+}
+
+#foot .footer-card .foot-heading {
+  color: #404E6c;
+}
+
+#foot .footer-card .footer-text .list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 1rem;
+}
